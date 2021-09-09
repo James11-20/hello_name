@@ -13,6 +13,10 @@ public class Example3 {
                 studentName.add(userResponse);
             }
         }
+        System.out.println("The students in your class are");
+        for (var Name: studentName){
+            System.out.println(Name);
+        }
     }
 
 }
